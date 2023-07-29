@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 
 interface Project {
   title: string;
@@ -32,10 +33,12 @@ const Projects: React.FC = () => {
               <p className="mt-2">
                 Technologies used: {project.technologies.join(", ")}
               </p>
-              <img
+              {/* Use next/image instead of img */}
+              <Image
                 src={project.imageUrl}
                 alt={project.title}
-                className="w-full mt-4"
+                width={400} // Set the desired width
+                height={300} // Set the desired height
               />
               <a
                 href={project.demoUrl}

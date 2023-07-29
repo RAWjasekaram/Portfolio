@@ -6,8 +6,8 @@ const Contact: React.FC = () => {
       <div className="container mx-auto">
         <h2 className="text-2xl font-bold">Contact</h2>
         <p>
-          If you'd like to get in touch, feel free to reach out to me using the
-          form below or through my email address: yourname@example.com
+          If you&apos;d like to get in touch, feel free to reach out to me using
+          the form below or through my email address: yourname@example.com
         </p>
         {/* Add a contact form or contact details here */}
       </div>
