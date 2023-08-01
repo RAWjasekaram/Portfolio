@@ -34,12 +34,6 @@ const Projects: React.FC = () => {
                 Technologies used: {project.technologies.join(", ")}
               </p>
               {/* Use next/image instead of img */}
-              <Image
-                src={project.imageUrl}
-                alt={project.title}
-                width={400} // Set the desired width
-                height={300} // Set the desired height
-              />
               <a
                 href={project.demoUrl}
                 target="_blank"

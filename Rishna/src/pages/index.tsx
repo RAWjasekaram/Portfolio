@@ -6,10 +6,11 @@ import Projects from "../components/Projects";
 import Contact from "../components/Contact";
 
 const Home: React.FC = () => {
+  console.log("What is this?");
   return (
     <div>
       <Head>
-        <title>Your Portfolio</title>
+        <title>Rishna&apos;s Portfolio</title>
       </Head>
       <Header />
       <About />
