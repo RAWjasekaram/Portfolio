@@ -6,12 +6,12 @@ import Projects from "./components/Projects";
 
 export default function Home() {
   return (
-    <div>
+    <div className="bg-gray-800">
       {" "}
       <Header />
       <About />
-      <Contact />
       <Projects />
+      <Contact />
     </div>
   );
 }
