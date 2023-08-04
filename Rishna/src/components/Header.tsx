@@ -7,7 +7,7 @@ const Header: React.FC = () => {
         <div className="w-1/4">{/* First segment (1/4) */}</div>
         <div className="w-2/4 text-center">
           {/* Middle segment (2/4) */}
-          <h1 className="text-3xl font-bold">Rishna Rajasekaram</h1>
+          <h1 className="t-3xl font-bold text-blue-500">Rishna Rajasekaram</h1>
           <p className="text-xl">Frontend Developer</p>
         </div>
         <div className="w-1/4">{/* Third segment (1/4) */}</div>
