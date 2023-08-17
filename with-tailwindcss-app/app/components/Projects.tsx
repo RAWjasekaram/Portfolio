@@ -18,6 +18,15 @@ const projects: Project[] = [
     imageUrl: "/project1.png",
     demoUrl: "https://rock-paper-scissors-dusky-pi.vercel.app/",
   },
+
+  {
+    title: "Rock-Paper-Scissors-Lizard-Spock",
+    description:
+      "Created a rock paper scissors game with a couple additional elements, all of which are explained on the page. The game is single player against a computer and a single click generates a CPU response and the result of who won.",
+    technologies: ["Javascript", "HTML", "Tailwind CSS"],
+    imageUrl: "/project1.png",
+    demoUrl: "https://rock-paper-scissors-dusky-pi.vercel.app/",
+  },
   // Add more projects here
 ];
 
