@@ -1,11 +1,10 @@
-import React from "react";
 import Image from "next/image";
 
 interface Project {
   title: string;
   description: string;
   technologies: string[];
-  imageUrl: string;
+  // imageUrl: string;
   demoUrl: string;
 }
 
@@ -15,17 +14,17 @@ const projects: Project[] = [
     description:
       "Created a rock paper scissors game with a couple additional elements, all of which are explained on the page. The game is single player against a computer and a single click generates a CPU response and the result of who won.",
     technologies: ["Javascript", "HTML", "Tailwind CSS"],
-    imageUrl: "/project1.png",
+    // imageUrl: "/project1.png",
     demoUrl: "https://rock-paper-scissors-dusky-pi.vercel.app/",
   },
 
   {
-    title: "Rock-Paper-Scissors-Lizard-Spock",
+    title: "Whack-A-Troll",
     description:
-      "Created a rock paper scissors game with a couple additional elements, all of which are explained on the page. The game is single player against a computer and a single click generates a CPU response and the result of who won.",
+      "Created a game of Whack-A-Troll where the player can race against time to see what the highest score they can get is! Game start immediately on click/refresh so be prepared! Also score is displayed as soon as time is out.",
     technologies: ["Javascript", "HTML", "Tailwind CSS"],
-    imageUrl: "/project1.png",
-    demoUrl: "https://rock-paper-scissors-dusky-pi.vercel.app/",
+    // imageUrl: "/project1.png",
+    demoUrl: "https://whack-a-troll.vercel.app/",
   },
   // Add more projects here
 ];
@@ -34,7 +33,7 @@ const Projects: React.FC = () => {
   return (
     <section className="py-10">
       <div className="container mx-auto">
-        <h2 className="text-3xl font-bold underline text-yellow-700">
+        <h2 id="3" className="text-3xl font-bold underline text-yellow-700">
           Projects
         </h2>
         <br />

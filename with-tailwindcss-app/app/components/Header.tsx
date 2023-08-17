@@ -11,15 +11,30 @@ const Header: React.FC = () => {
         </div>
         <div className="w-1/3 flex justify-center items-center border-2 border-yellow-700 bg-black">
           {/* Third segment (1/4) */}
-          <a className="mx-4 border-2 p-2  border-red-700 text-white hover:underline  hover:text-red-700">
+          <a
+            className="mx-4 border-2 p-2  border-red-700 text-white hover:underline  hover:text-red-700"
+            href="#1"
+          >
             About
           </a>{" "}
+          <a
+            className="mx-4 border-2 p-2  border-red-700 text-white hover:underline  hover:text-red-700"
+            href="#2"
+          >
+            Skills
+          </a>
           /
-          <a className="mx-4 border-2 p-2  border-red-700 text-white hover:underline  hover:text-red-700 ">
+          <a
+            className="mx-4 border-2 p-2  border-red-700 text-white hover:underline  hover:text-red-700 "
+            href="#3"
+          >
             Projects
           </a>{" "}
           /
-          <a className="mx-4 border-2 p-2  border-red-700 text-white hover:underline  hover:text-red-700">
+          <a
+            className="mx-4 border-2 p-2  border-red-700 text-white hover:underline  hover:text-red-700"
+            href="#4"
+          >
             Contact
           </a>
           {/* Get help with getting the links to go where u want, i.e. halfway down the page. */}

@@ -3,7 +3,10 @@ import React from "react";
 const About: React.FC = () => {
   return (
     <section className="py-10">
-      <div className="container grid grid-cols-3 gap-6 text-white mx-auto bg-gray-800">
+      <div
+        id="1"
+        className="container grid grid-cols-3 gap-6 text-white mx-auto bg-gray-800"
+      >
         <div className="col-span-3 md:col-span-2 md:pr-6">
           <h2 className="text-3xl font-bold underline text-yellow-700">
             About Me
