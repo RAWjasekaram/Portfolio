@@ -6,7 +6,7 @@ const Header: React.FC = () => {
       <div className="container mx-auto flex">
         <div className="w-2/3 text-center border-4 border-red-700">
           {/* Middle segment (2/4) */}
-          <h1 className="text-3xl font-bold text-white">Rishna Rajasekaram</h1>
+          <h1 className="text-5xl font-bold text-white">Rishna Rajasekaram</h1>
           <p className="text-xl text-yellow-700">Frontend Developer</p>
         </div>
         <div className="w-1/3 flex justify-center items-center border-2 border-yellow-700 bg-black">

@@ -11,11 +11,12 @@ interface Project {
 
 const projects: Project[] = [
   {
-    title: "Project 1",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-    technologies: ["React", "TypeScript", "Tailwind CSS"],
+    title: "Rock-Paper-Scissors-Lizard-Spock",
+    description:
+      "Created a rock paper scissors game with a couple additional elements, all of which are explained on the page. The game is single player against a computer and a single click generates a CPU response and the result of who won.",
+    technologies: ["Javascript", "HTML", "Tailwind CSS"],
     imageUrl: "/project1.png",
-    demoUrl: "https://project1demo.com",
+    demoUrl: "https://rock-paper-scissors-dusky-pi.vercel.app/",
   },
   // Add more projects here
 ];
@@ -24,7 +25,11 @@ const Projects: React.FC = () => {
   return (
     <section className="py-10">
       <div className="container mx-auto">
-        <h2 className="text-2xl font-bold">Projects</h2>
+        <h2 className="text-3xl font-bold underline text-yellow-700">
+          Projects
+        </h2>
+        <br />
+
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
           {projects.map((project, index) => (
             <div key={index} className="bg-white p-4 shadow-md">
