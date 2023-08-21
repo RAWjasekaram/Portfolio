@@ -10,6 +10,7 @@ const Skills: React.FC = () => {
       >
         Skills
       </h2>
+      <br />
       <div className="flex justify-center bg-white">
         <div className="flex space-x-16">
           <img

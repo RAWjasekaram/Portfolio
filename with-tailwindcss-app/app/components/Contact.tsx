@@ -4,7 +4,7 @@ const Contact: React.FC = () => {
   return (
     <section className="bg-gray-800 py-10">
       <div className="container mx-auto">
-        <h2 id="4" className="text-2xl font-bold text-yellow-700">
+        <h2 id="4" className="text-3xl underline font-bold text-yellow-700">
           Contact
         </h2>
         <p className="text-white">
