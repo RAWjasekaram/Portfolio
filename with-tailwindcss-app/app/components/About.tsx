@@ -11,7 +11,7 @@ const About: React.FC = () => {
           <h2 className="text-3xl font-bold underline text-yellow-700">
             About Me
           </h2>
-          <p className="my-4 leading-relaxed md:leading-loose">
+          <p className="my-4 leading-relaxed md:leading-loose text-xl">
             Hello I'm Rishna, a frontend engineer at Skillify a Toronto-based
             startup that offers digital media literacy coaching. I am currently
             learning how to become a front-end engineer and looking to grow my
