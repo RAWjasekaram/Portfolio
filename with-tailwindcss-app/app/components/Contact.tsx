@@ -11,6 +11,9 @@ const Contact: React.FC = () => {
           If you would like to get in touch, feel free to reach out to me using
           the form below or through my email address:
           Rishna.Rajasekaram@gmail.com
+          <br />
+          <br />
+          Thank you for visiting my portfolio!
         </p>
         {/* Add a contact form or contact details here */}
       </div>

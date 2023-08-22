@@ -25,15 +25,24 @@ const Email: React.FC = () => {
             name="email"
           />
 
-          <input
+          <textarea
             required
             className="w-4/5 mx-auto h-40" //Message box extends infinitely despite size? just acts as one line like notepad and extends 4ever//
             placeholder="Message"
-            type="text"
             name="message"
           />
           <br />
-          <button type="submit">Send</button>
+          <div className="flex mx-auto w-1/2 justify-end">
+            <button
+              type="submit"
+              className="bg-blue-500 flex justify-center hover:bg-blue-900 text-white font-semibold py-2 px-4 rounded-lg shadow-md w-full"
+            >
+              Send
+            </button>
+          </div>
+          <br />
+          <br />
+          <br />
         </div>
       </form>
     </div>
