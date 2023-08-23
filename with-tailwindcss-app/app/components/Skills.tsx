@@ -14,6 +14,10 @@ const Skills: React.FC = () => {
       <div className="flex justify-center bg-white">
         <div className="flex space-x-16">
           <img
+            src="https://brandeps.com/logo-download/H/HTML-5-logo-vector-01.svg"
+            className="w-24 h-32  mx-auto md:mx-0 mb-4 md:mb-0"
+          />
+          <img
             src="https://brandeps.com/logo-download/C/CSS-3-logo-vector-01.svg"
             className="w-24 h-32  mx-auto md:mx-0 mb-4 md:mb-0"
           />
@@ -25,10 +29,7 @@ const Skills: React.FC = () => {
             src="https://brandeps.com/logo-download/J/JavaScript-logo-vector-01.svg"
             className="w-24 h-32  mx-auto md:mx-0 mb-4 md:mb-0"
           />
-          <img
-            src="https://brandeps.com/logo-download/H/HTML-5-logo-vector-01.svg"
-            className="w-24 h-32  mx-auto md:mx-0 mb-4 md:mb-0"
-          />
+
           <img
             src="https://brandeps.com/icon-download/G/Github-icon-vector-22.svg"
             className="w-24 h-32  mx-auto md:mx-0 mb-4 md:mb-0"
