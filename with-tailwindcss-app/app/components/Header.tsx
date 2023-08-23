@@ -29,7 +29,7 @@ const Header: React.FC = () => {
           </svg>
         </button>{" "}
         <div
-          className={`menu-options text-yellow-700 xl:hidden ${
+          className={`menu-options text-white xl:hidden ${
             hidden ? "hidden " : ""
           }`}
         >
@@ -37,9 +37,18 @@ const Header: React.FC = () => {
             id="nav-menu"
             className="space-y-2 items-center px-4 flex flex-col  font-semibold text-xl mt-4"
           >
-            <a href="#Skills">Skills</a>
-            <a href="#ProjectWork">Projects</a>
-            <a href="#Contact">Contact</a>
+            <a href="#1" className="text-sm ">
+              About
+            </a>
+            <a href="#2" className="text-sm ">
+              Skills
+            </a>
+            <a href="#3" className="text-sm ">
+              Projects
+            </a>
+            <a href="#4" className="text-sm ">
+              Contact
+            </a>
           </ul>
         </div>
         <div className="hidden w-1/3 xl:flex justify-center items-center border-2 border-yellow-700 bg-black">
@@ -50,20 +59,21 @@ const Header: React.FC = () => {
           >
             About
           </a>{" "}
+          <p className="text-yellow-700 text-xl">/</p>
           <a
             className="mx-4 border-2 p-2  border-red-700 text-white hover:underline  hover:text-red-700"
             href="#2"
           >
             Skills
           </a>
-          /
+          <p className="text-yellow-700 text-xl">/</p>
           <a
             className="mx-4 border-2 p-2  border-red-700 text-white hover:underline  hover:text-red-700 "
             href="#3"
           >
             Projects
           </a>{" "}
-          /
+          <p className="text-yellow-700 text-xl">/</p>
           <a
             className="mx-4 border-2 p-2  border-red-700 text-white hover:underline  hover:text-red-700"
             href="#4"
