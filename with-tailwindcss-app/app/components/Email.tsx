@@ -2,7 +2,7 @@ import React from "react";
 
 const Email: React.FC = () => {
   return (
-    <div className="flex flex-col text-xl mx-4 lg:mx-80">
+    <div className="flex flex-col text-xl mx-4 lg:mx-auto">
       <form
         className=""
         action="https://getform.io/f/f0b8d807-73a4-4d90-af94-fa134e93610c"
@@ -27,7 +27,7 @@ const Email: React.FC = () => {
 
           <textarea
             required
-            className="w-4/5 mx-auto h-40"
+            className=" w-full mx-auto h-40 md:w-4/5 "
             placeholder="Message"
             name="message"
           />
