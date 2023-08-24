@@ -28,7 +28,7 @@ const Email: React.FC = () => {
           <textarea
             required
             className=" w-full mx-auto h-40 md:w-4/5 "
-            placeholder="Message"
+            placeholder="Message me!"
             name="message"
           />
           <br />
