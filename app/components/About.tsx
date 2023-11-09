@@ -12,16 +12,23 @@ const About: React.FC = () => {
             About Me
           </h2>
           <p className="my-4 leading-relaxed md:leading-loose text-xl">
-            Hello my name is Rishna, a frontend engineer at Skillify a
-            Toronto-based startup that offers digital media literacy coaching. I
-            am currently learning how to become a front-end engineer and looking
-            to grow my skills through practical practice, and this is my first
-            React Portfolio page. I am hoping to start my own business in which
-            I can provide these and in time many more other products and
-            services. Below you will find some of the projects I have already
-            completed and a way to get in touch with me. I hope you enjoy my
-            work and feel free to get into contact with me if you have any
-            questions or would like to work with me!
+            Hello, my name is Rishna. I work as a frontend engineer at Skillify,
+            a Toronto-based startup that specializes in offering digital media
+            literacy coaching. Currently, I am in the process of mastering the
+            skills required for a front-end engineer role and am actively
+            seeking opportunities to enhance my abilities through hands-on
+            experience. This portfolio showcases my inaugural React projects and
+            serves as a testament to my growth.
+            <br />
+            My aspiration is to establish an independent venture focused on
+            providing not only these services but also an array of complementary
+            products. Within this portfolio, you'll find a collection of
+            projects I've successfully undertaken. Please don't hesitate to
+            reach out if you're interested in collaborating or have any
+            inquiries; I'm open to connecting and discussing ideas. Thank you
+            for taking the time to explore my work.
+            <br />
+            Your feedback and potential collaboration are greatly appreciated.
           </p>
         </div>
         <div className="col-span-3 md:col-span-1">

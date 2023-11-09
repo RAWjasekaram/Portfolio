@@ -9,11 +9,12 @@ const Contact: React.FC = () => {
         </h2>
         <p className="text-white text-xl">
           If you would like to get in touch, feel free to reach out to me using
-          the form below or through my email address:
-          Rishna.Rajasekaram@gmail.com
+          the form below which will send me a direct e-mail! Would love to hear
+          from anyone looking to work with me or even if you're in the industry
+          and have some constructive feedback!
           <br />
           <br />
-          Thank you for visiting my portfolio!
+          Thank you for visiting my portfolio I really appreciate it!
         </p>
         {/* Add a contact form or contact details here */}
       </div>
